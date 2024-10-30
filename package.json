@@ -1,0 +1,20 @@
+{
+  "name": "nodewithnewstructure",
+  "version": "1.0.0",
+  "description": "Lerning node express with proper structure (DAO, Services, Routes, Controllers, DB)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "mjrehman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "express-validator": "^7.0.1",
+    "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1"
+  }
+}
