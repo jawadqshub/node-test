@@ -10,7 +10,7 @@ const getUser = async (req, res) => {
     try {
         // const user = await UserModel.find()
         const user = await getUserFromService();
-        res.send(user)
+        res.send({"oye its users": user})
     } catch (error) {
         console.error(error.message);
         res.status(500).send("Internal Server Error");
